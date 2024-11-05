@@ -1,12 +1,14 @@
 package ru.yandex.practicum.user;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.NonNull;
 
 import java.util.Date;
 
 // Детализированная информация о пользователе
 @Data
+@NoArgsConstructor
 public class Details {
     // Электронная почта
     @NonNull
